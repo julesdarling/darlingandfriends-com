@@ -1658,6 +1658,7 @@ section.footer .splitpara.jhppara.footerrr {
   max-width: 70vw;
   margin: var(--portrait-top-offset) auto 0 !important;
   padding: 0 !important;
+  border: clamp(0.24rem, 0.42vw, 0.38rem) solid #59759f;
 }
 
 #aboutmesection .flex-block-6 {
