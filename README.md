@@ -22,7 +22,7 @@ GitHub Pages is deployed through `.github/workflows/deploy.yml`.
 - The Astro site is configured for `https://darlingandfriends.com` and root-relative paths.
 - The destination GitHub Pages repository must use `darlingandfriends.com` as its custom domain, with both apex and `www` DNS configured. GitHub Actions deployments do not read the source `CNAME` file as a hosting setting.
 
-The D+F monogram in `Logo.svg` and the social card in `public/assets/social-image.svg` use outlined Instrument Serif glyphs. The PNG/WebP favicon, touch icon, and social card are raster exports of the new vectors; they do not reuse the former studio monogram.
+The monogram in `Logo.svg` and the social card in `public/assets/social-image.svg` use outlined Instrument Serif glyphs. The PNG/WebP favicons and touch icons use the supplied black D&F monogram on white.
 
 ## Editing Content
 
