@@ -1,6 +1,6 @@
-# Haggard Website
+# Darling & Friends Website
 
-Static Astro rebuild of the current `haggard.design` Webflow site.
+Static Astro website for Darling & Friends at `darlingandfriends.com`.
 
 ## Commands
 
@@ -19,8 +19,10 @@ Static Astro rebuild of the current `haggard.design` Webflow site.
 GitHub Pages is deployed through `.github/workflows/deploy.yml`.
 
 - Pushes to `main` run `check`, `build`, and `verify`, then publish `dist/`.
-- The Astro site is configured for `https://www.haggard.design` and root-relative paths.
-- GitHub Pages is configured for `www.haggard.design`; DNS still needs to point there before the domain resolves to this build.
+- The Astro site is configured for `https://darlingandfriends.com` and root-relative paths.
+- The destination GitHub Pages repository must use `darlingandfriends.com` as its custom domain, with both apex and `www` DNS configured. GitHub Actions deployments do not read the source `CNAME` file as a hosting setting.
+
+The D+F monogram in `Logo.svg` and the social card in `public/assets/social-image.svg` use outlined Instrument Serif glyphs. The PNG/WebP favicon, touch icon, and social card are raster exports of the new vectors; they do not reuse the former studio monogram.
 
 ## Editing Content
 

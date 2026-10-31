@@ -1,3 +1,3 @@
-export const siteName = 'Haggard & Associates';
-export const productionOrigin = 'https://www.haggard.design';
+export const siteName = 'Darling & Friends';
+export const productionOrigin = 'https://darlingandfriends.com';
 export const noindexPaths = new Set(['/pricing-old-copy', '/type-specimen', '/homepage-test']);

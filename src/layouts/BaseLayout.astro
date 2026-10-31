@@ -31,7 +31,7 @@ const {
 
 const canonicalPath = currentPath === '/' ? '' : currentPath;
 const canonicalUrl = absoluteSiteUrl(canonicalPath, Astro.site ?? new URL(productionOrigin));
-const pageTitle = title.includes('Haggard') || title.length > 48 ? title : `${title} | ${siteName}`;
+const pageTitle = title.includes('Darling') || title.length > 48 ? title : `${title} | ${siteName}`;
 const absoluteOgImage = absoluteSiteUrl(ogImage, Astro.site ?? new URL(productionOrigin));
 const robots = noindexPaths.has(currentPath) ? 'noindex, nofollow' : 'index, follow';
 const showCopyrightFooter = currentPath !== '/';
@@ -44,6 +44,7 @@ const schema = {
   '@context': 'https://schema.org',
   '@type': 'ProfessionalService',
   name: siteName,
+  email: 'jules@darlingandfriends.com',
   url: absoluteSiteUrl('/', Astro.site ?? new URL(productionOrigin)),
   image: absoluteOgImage,
   description: metaDescription,
@@ -54,7 +55,7 @@ const schema = {
     addressRegion: 'CA',
     addressCountry: 'US',
   },
-  sameAs: ['https://www.haggard.design'],
+  sameAs: ['https://darlingandfriends.com'],
 };
 ---
 
@@ -85,7 +86,7 @@ const schema = {
     <meta name="twitter:image:alt" content={pageTitle} />
     <link rel="icon" href={withBasePath('/assets/favicon.png')} type="image/png" />
     <link rel="shortcut icon" href={withBasePath('/favicon.ico')} />
-    <link rel="apple-touch-icon" href={withBasePath('/assets/site/apple-touch-icon.webp')} />
+    <link rel="apple-touch-icon" href={withBasePath('/assets/apple-touch-icon.png')} />
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-8YHNXLP7D5"></script>
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
@@ -110,7 +111,7 @@ const schema = {
     {
       showCopyrightFooter && (
         <footer class="site-copyright-footer" aria-label="Site copyright">
-          <p>© 2026 Haggard &amp; Associates · San Francisco, California</p>
+          <p>© 2026 Darling &amp; Friends · San Francisco, California</p>
         </footer>
       )
     }

@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "description": "Static Astro rebuild of haggard.design.",
+  "description": "Static Astro rebuild of darlingandfriends.com.",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",

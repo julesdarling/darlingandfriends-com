@@ -1,4 +1,4 @@
-# Haggard Website Product Context
+# Darling Website Product Context
 
 ## Register
 
@@ -6,13 +6,13 @@ brand
 
 ## Product Purpose
 
-Haggard & Associates is a senior-led brand and digital design studio site. The site should make strategy feel commercially useful, make the work feel premium and decisive, and help founders, CEOs, CMOs, and senior marketing leaders understand why the studio is worth a serious engagement.
+Darling & Friends is a senior-led brand and digital design studio site. The site should make strategy feel commercially useful, make the work feel premium and decisive, and help founders, CEOs, CMOs, and senior marketing leaders understand why the studio is worth a serious engagement.
 
 ## Primary Audience
 
 - CEOs and founders who need their company to look as serious as the product actually is.
 - CMOs and marketing leaders who need sharper positioning, a stronger identity system, and launch-ready assets.
-- Brand-aware operators evaluating whether Haggard can translate complex value into market attention.
+- Brand-aware operators evaluating whether Darling can translate complex value into market attention.
 
 ## Brand Voice
 

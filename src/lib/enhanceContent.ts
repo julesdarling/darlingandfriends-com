@@ -133,8 +133,8 @@ function altForImage($: CheerioAPI, element: Element, options: EnhanceContentOpt
   }
 
   if (className.includes('clientlogo')) return 'Client logo';
-  if (className.includes('image-8')) return 'Jules Haggard portrait';
-  if (className.includes('image-18')) return 'Haggard & Associates collaborator portrait collage';
+  if (className.includes('image-8')) return 'Jules Darling portrait';
+  if (className.includes('image-18')) return 'Darling & Friends collaborator portrait collage';
 
   return `${options.title} visual`;
 }
@@ -452,7 +452,7 @@ function replaceAssociateCollage($: CheerioAPI) {
   $('#aboutmesection .image-18').each((_, element) => {
     const cloud = $('<div></div>')
       .addClass('associate-portrait-cloud')
-      .attr('aria-label', 'Haggard & Associates collaborator portraits')
+      .attr('aria-label', 'Darling & Friends collaborator portraits')
       .attr('role', 'img');
 
     associateFaces.forEach((face) => {
@@ -576,7 +576,7 @@ function formatHomepageMarketAttentionCopy($: CheerioAPI, options: EnhanceConten
   const marketAttention = $('.aboutintro.hp.herohp.lowerdown').not('.testimonials').first();
   const target = marketAttention
     .find('p.brand-attention-copy')
-    .filter((_, element) => cleanText($(element).text()).startsWith('That is usually where Haggard helps:'))
+    .filter((_, element) => cleanText($(element).text()).startsWith('That is usually where Darling helps:'))
     .first();
 
   if (target.length === 0) return;
@@ -585,7 +585,7 @@ function formatHomepageMarketAttentionCopy($: CheerioAPI, options: EnhanceConten
   wrapper.append(
     $('<p></p>')
       .addClass('splitpara jhppara brand-attention-copy brand-attention-lede')
-      .text('That is where Haggard helps.'),
+      .text('That is where Darling helps.'),
   );
 
   const list = $('<ul></ul>').addClass('brand-attention-list');
@@ -626,7 +626,7 @@ function injectProjectDeliverables($: CheerioAPI, options: EnhanceContentOptions
   const body = $('<div></div>').addClass('deliverables-recap__body');
 
   body.append($('<p></p>').addClass('deliverables-recap__label').text('Deliverables'));
-  body.append($('<h2></h2>').addClass('deliverables-recap__title').attr('id', sectionId).text('What Haggard delivered'));
+  body.append($('<h2></h2>').addClass('deliverables-recap__title').attr('id', sectionId).text('What Darling delivered'));
   body.append($('<p></p>').addClass('deliverables-recap__summary').text(recap.summary));
 
   const list = $('<ul></ul>').addClass('deliverables-recap__list');

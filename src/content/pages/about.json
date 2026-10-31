@@ -1,8 +1,8 @@
 {
   "path": "/about",
-  "sourceUrl": "https://www.haggard.design/about",
+  "sourceUrl": "https://darlingandfriends.com/about",
   "title": "About",
-  "description": "Meet Haggard & Associates, a San Francisco brand studio focused on practical, purposeful identity systems.",
+  "description": "Meet Darling & Friends, a San Francisco brand studio focused on practical, purposeful identity systems.",
   "bodyClass": "maincontent about-page",
   "ogImage": "/assets/social-image.png",
   "htmlFile": "pages/about.html",
